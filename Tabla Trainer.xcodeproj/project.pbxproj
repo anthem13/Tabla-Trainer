@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214E3AB0203E84930094B7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E3AAF203E84930094B7CE /* AppDelegate.swift */; };
+		214E3AB2203E84930094B7CE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 214E3AB1203E84930094B7CE /* GameScene.sks */; };
+		214E3AB4203E84930094B7CE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 214E3AB3203E84930094B7CE /* Actions.sks */; };
+		214E3AB6203E84930094B7CE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E3AB5203E84930094B7CE /* GameScene.swift */; };
+		214E3AB8203E84930094B7CE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E3AB7203E84930094B7CE /* GameViewController.swift */; };
+		214E3ABB203E84930094B7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214E3AB9203E84930094B7CE /* Main.storyboard */; };
+		214E3ABD203E84930094B7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214E3ABC203E84930094B7CE /* Assets.xcassets */; };
+		214E3AC0203E84930094B7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214E3ABE203E84930094B7CE /* LaunchScreen.storyboard */; };
+		214E3ACB203E84930094B7CE /* Tabla_TrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E3ACA203E84930094B7CE /* Tabla_TrainerTests.swift */; };
+		214E3AD6203E84930094B7CE /* Tabla_TrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E3AD5203E84930094B7CE /* Tabla_TrainerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		214E3AC7203E84930094B7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214E3AA4203E84930094B7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214E3AAB203E84930094B7CE;
+			remoteInfo = "Tabla Trainer";
+		};
+		214E3AD2203E84930094B7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214E3AA4203E84930094B7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214E3AAB203E84930094B7CE;
+			remoteInfo = "Tabla Trainer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		214E3AAC203E84930094B7CE /* Tabla Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabla Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E3AAF203E84930094B7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		214E3AB1203E84930094B7CE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		214E3AB3203E84930094B7CE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		214E3AB5203E84930094B7CE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		214E3AB7203E84930094B7CE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		214E3ABA203E84930094B7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214E3ABC203E84930094B7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214E3ABF203E84930094B7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		214E3AC1203E84930094B7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214E3AC6203E84930094B7CE /* Tabla TrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabla TrainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E3ACA203E84930094B7CE /* Tabla_TrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabla_TrainerTests.swift; sourceTree = "<group>"; };
+		214E3ACC203E84930094B7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214E3AD1203E84930094B7CE /* Tabla TrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabla TrainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E3AD5203E84930094B7CE /* Tabla_TrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabla_TrainerUITests.swift; sourceTree = "<group>"; };
+		214E3AD7203E84930094B7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214E3AA9203E84930094B7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214E3AC3203E84930094B7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214E3ACE203E84930094B7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214E3AA3203E84930094B7CE = {
+			isa = PBXGroup;
+			children = (
+				214E3AAE203E84930094B7CE /* Tabla Trainer */,
+				214E3AC9203E84930094B7CE /* Tabla TrainerTests */,
+				214E3AD4203E84930094B7CE /* Tabla TrainerUITests */,
+				214E3AAD203E84930094B7CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		214E3AAD203E84930094B7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214E3AAC203E84930094B7CE /* Tabla Trainer.app */,
+				214E3AC6203E84930094B7CE /* Tabla TrainerTests.xctest */,
+				214E3AD1203E84930094B7CE /* Tabla TrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		214E3AAE203E84930094B7CE /* Tabla Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				214E3AAF203E84930094B7CE /* AppDelegate.swift */,
+				214E3AB1203E84930094B7CE /* GameScene.sks */,
+				214E3AB3203E84930094B7CE /* Actions.sks */,
+				214E3AB5203E84930094B7CE /* GameScene.swift */,
+				214E3AB7203E84930094B7CE /* GameViewController.swift */,
+				214E3AB9203E84930094B7CE /* Main.storyboard */,
+				214E3ABC203E84930094B7CE /* Assets.xcassets */,
+				214E3ABE203E84930094B7CE /* LaunchScreen.storyboard */,
+				214E3AC1203E84930094B7CE /* Info.plist */,
+			);
+			path = "Tabla Trainer";
+			sourceTree = "<group>";
+		};
+		214E3AC9203E84930094B7CE /* Tabla TrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				214E3ACA203E84930094B7CE /* Tabla_TrainerTests.swift */,
+				214E3ACC203E84930094B7CE /* Info.plist */,
+			);
+			path = "Tabla TrainerTests";
+			sourceTree = "<group>";
+		};
+		214E3AD4203E84930094B7CE /* Tabla TrainerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				214E3AD5203E84930094B7CE /* Tabla_TrainerUITests.swift */,
+				214E3AD7203E84930094B7CE /* Info.plist */,
+			);
+			path = "Tabla TrainerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		214E3AAB203E84930094B7CE /* Tabla Trainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214E3ADA203E84930094B7CE /* Build configuration list for PBXNativeTarget "Tabla Trainer" */;
+			buildPhases = (
+				214E3AA8203E84930094B7CE /* Sources */,
+				214E3AA9203E84930094B7CE /* Frameworks */,
+				214E3AAA203E84930094B7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tabla Trainer";
+			productName = "Tabla Trainer";
+			productReference = 214E3AAC203E84930094B7CE /* Tabla Trainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		214E3AC5203E84930094B7CE /* Tabla TrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214E3ADD203E84930094B7CE /* Build configuration list for PBXNativeTarget "Tabla TrainerTests" */;
+			buildPhases = (
+				214E3AC2203E84930094B7CE /* Sources */,
+				214E3AC3203E84930094B7CE /* Frameworks */,
+				214E3AC4203E84930094B7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214E3AC8203E84930094B7CE /* PBXTargetDependency */,
+			);
+			name = "Tabla TrainerTests";
+			productName = "Tabla TrainerTests";
+			productReference = 214E3AC6203E84930094B7CE /* Tabla TrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		214E3AD0203E84930094B7CE /* Tabla TrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214E3AE0203E84930094B7CE /* Build configuration list for PBXNativeTarget "Tabla TrainerUITests" */;
+			buildPhases = (
+				214E3ACD203E84930094B7CE /* Sources */,
+				214E3ACE203E84930094B7CE /* Frameworks */,
+				214E3ACF203E84930094B7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214E3AD3203E84930094B7CE /* PBXTargetDependency */,
+			);
+			name = "Tabla TrainerUITests";
+			productName = "Tabla TrainerUITests";
+			productReference = 214E3AD1203E84930094B7CE /* Tabla TrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214E3AA4203E84930094B7CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Anthem Creative Labs";
+				TargetAttributes = {
+					214E3AAB203E84930094B7CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					214E3AC5203E84930094B7CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 214E3AAB203E84930094B7CE;
+					};
+					214E3AD0203E84930094B7CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 214E3AAB203E84930094B7CE;
+					};
+				};
+			};
+			buildConfigurationList = 214E3AA7203E84930094B7CE /* Build configuration list for PBXProject "Tabla Trainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 214E3AA3203E84930094B7CE;
+			productRefGroup = 214E3AAD203E84930094B7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214E3AAB203E84930094B7CE /* Tabla Trainer */,
+				214E3AC5203E84930094B7CE /* Tabla TrainerTests */,
+				214E3AD0203E84930094B7CE /* Tabla TrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214E3AAA203E84930094B7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E3ABB203E84930094B7CE /* Main.storyboard in Resources */,
+				214E3AB2203E84930094B7CE /* GameScene.sks in Resources */,
+				214E3ABD203E84930094B7CE /* Assets.xcassets in Resources */,
+				214E3AC0203E84930094B7CE /* LaunchScreen.storyboard in Resources */,
+				214E3AB4203E84930094B7CE /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214E3AC4203E84930094B7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214E3ACF203E84930094B7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214E3AA8203E84930094B7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E3AB6203E84930094B7CE /* GameScene.swift in Sources */,
+				214E3AB8203E84930094B7CE /* GameViewController.swift in Sources */,
+				214E3AB0203E84930094B7CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214E3AC2203E84930094B7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E3ACB203E84930094B7CE /* Tabla_TrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214E3ACD203E84930094B7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E3AD6203E84930094B7CE /* Tabla_TrainerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		214E3AC8203E84930094B7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214E3AAB203E84930094B7CE /* Tabla Trainer */;
+			targetProxy = 214E3AC7203E84930094B7CE /* PBXContainerItemProxy */;
+		};
+		214E3AD3203E84930094B7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214E3AAB203E84930094B7CE /* Tabla Trainer */;
+			targetProxy = 214E3AD2203E84930094B7CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214E3AB9203E84930094B7CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214E3ABA203E84930094B7CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		214E3ABE203E84930094B7CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214E3ABF203E84930094B7CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		214E3AD8203E84930094B7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		214E3AD9203E84930094B7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		214E3ADB203E84930094B7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tabla Trainer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACL.Tabla-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		214E3ADC203E84930094B7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tabla Trainer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACL.Tabla-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		214E3ADE203E84930094B7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tabla TrainerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACL.Tabla-TrainerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabla Trainer.app/Tabla Trainer";
+			};
+			name = Debug;
+		};
+		214E3ADF203E84930094B7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tabla TrainerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACL.Tabla-TrainerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabla Trainer.app/Tabla Trainer";
+			};
+			name = Release;
+		};
+		214E3AE1203E84930094B7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Tabla TrainerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACL.Tabla-TrainerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Tabla Trainer";
+			};
+			name = Debug;
+		};
+		214E3AE2203E84930094B7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Tabla TrainerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACL.Tabla-TrainerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Tabla Trainer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214E3AA7203E84930094B7CE /* Build configuration list for PBXProject "Tabla Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214E3AD8203E84930094B7CE /* Debug */,
+				214E3AD9203E84930094B7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214E3ADA203E84930094B7CE /* Build configuration list for PBXNativeTarget "Tabla Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214E3ADB203E84930094B7CE /* Debug */,
+				214E3ADC203E84930094B7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		214E3ADD203E84930094B7CE /* Build configuration list for PBXNativeTarget "Tabla TrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214E3ADE203E84930094B7CE /* Debug */,
+				214E3ADF203E84930094B7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		214E3AE0203E84930094B7CE /* Build configuration list for PBXNativeTarget "Tabla TrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214E3AE1203E84930094B7CE /* Debug */,
+				214E3AE2203E84930094B7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 214E3AA4203E84930094B7CE /* Project object */;
+}
